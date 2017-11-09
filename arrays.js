@@ -12,7 +12,7 @@ function destructivelyAddElementToBeginningOfArray(arr,n){
 }
 function addElementToEndOfArray(arr,n){
   var newArr = arr
-  newArr.push(n)
+  newArr.push('foo')
   return newArr;
 
 }
