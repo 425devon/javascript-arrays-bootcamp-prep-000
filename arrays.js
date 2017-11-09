@@ -5,3 +5,8 @@ function addElementToBeginningOfArray(arr, n){
   newArr = [n, ...arr]
   return newArr;
 }
+
+function destructivelyAddElementToBeginningOfArray(arr,n){
+  arr[0]=n;
+  return arr;
+}
