@@ -30,6 +30,6 @@ function removeElementFromBeginningOfArray(arr){
   return arr.slice(1);
 }
 function destructivelyRemoveElementFromEndOfArray(arr){
-  arr.slice(-1);
-  return arr;
+  return arr.slice(-1);
+  
 }
